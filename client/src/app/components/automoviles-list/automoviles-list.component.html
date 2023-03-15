@@ -1,0 +1,30 @@
+<div *ngFor="let auto of automoviles" class="card card-body mb-2">
+  <div class="row bg-primary">
+    <div class="col-md-8">
+      <ul>
+        <li>
+          id:{{auto._id}}
+        </li>
+        <li>
+          Marca:{{auto.marca}}
+        </li>
+        <li>
+          Modelo:{{auto.modelo}}
+        </li>
+        <li>
+          Año:{{auto.ano}}
+        </li>
+        <li>
+          Vendedor_Id:{{auto.vendedor_id}}
+        </li>
+        <li>
+          Cliente_Id:{{auto.cliente_id}}
+        </li>
+       
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
